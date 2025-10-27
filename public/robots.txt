@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://maphy.vercel.app
+
+# Sitemaps
+Sitemap: https://maphy.vercel.app/sitemap.xml

@@ -1,0 +1,73 @@
+import React from "react";
+import { HoverEffect } from "./ui/card-hover-effects";
+import ReactLogo from "@/assets/icons/react.svg";
+import NextLogo from "@/assets/icons/nextdotjs.svg";
+import TailwindLogo from "@/assets/icons/tailwindcss.svg";
+import TSLogo from "@/assets/icons/typescript.svg";
+import JSLogo from "@/assets/icons/javascript.svg";
+import NodeLogo from "@/assets/icons/nodedotjs.svg";
+import MongoLogo from "@/assets/icons/mongodb.svg";
+import BootstrapLogo from "@/assets/icons/bootstrap.svg";
+const Projects = () => {
+  const projects = [
+    {
+      title: "Next JS E-Commerce Store",
+      description: "Full-stack Next.js store with Stripe payments.",
+      image: "/projects/ecommerce.png",
+      liveDemo: "https://demo.com",
+      github: "https://github.com/yourrepo",
+      skills: [NextLogo, ReactLogo, TSLogo, TailwindLogo],
+    },
+    {
+      title: "Next JS Blog App",
+      description: "Fast, responsive personal portfolio built in Next.js.",
+      image: "/projects/blogapp.png",
+      liveDemo: "https://portfolio.com",
+      github: "https://github.com/yourrepo",
+      skills: [NextLogo, ReactLogo, JSLogo, TailwindLogo],
+    },
+    {
+      title: "Next JS Portfolio Website",
+      description: "Fast, responsive personal portfolio built in Next.js.",
+      image: "/projects/portfolio.png",
+      liveDemo: "https://portfolio.com",
+      github: "https://github.com/yourrepo",
+      skills: [NextLogo, ReactLogo, TSLogo, TailwindLogo],
+    },
+    {
+      title: "Full-Stack Weather App",
+      description: "Fast, responsive personal portfolio built in Next.js.",
+      image: "/projects/weatherapp.png",
+      liveDemo: "https://portfolio.com",
+      github: "https://github.com/yourrepo",
+      skills: [NodeLogo, ReactLogo, MongoLogo, JSLogo],
+    },
+    {
+      title: "React To-Do List",
+      description: "Fast, responsive personal portfolio built in Next.js.",
+      image: "/projects/todolist.png",
+      liveDemo: "https://portfolio.com",
+      github: "https://github.com/yourrepo",
+      skills: [ReactLogo, JSLogo, BootstrapLogo],
+    },
+  ];
+
+  return (
+    <section
+      className="w-full flex flex-col justify-center items-stretch pt-20 pb-8 text-gray-900 dark:text-white"
+      id="projects"
+    >
+      <h2 className="text-3xl font-bold text-center mb-4">
+        I Don’t Just Build Websites — I Build Proof.
+      </h2>
+      <p className="text-center mb-12 text-lg text-gray-600 dark:text-gray-300">
+        Fast. Scalable. Client-ready. Every project below is built to perform,
+        convert, and grow businesses. No templates. No fluff. Just results.
+      </p>
+
+      <HoverEffect items={projects} />
+    </section>
+  );
+};
+
+export default Projects;
