@@ -60,7 +60,7 @@ export function getClientAutoReplyHTML({
                 <p style="font-size:13px;color:#6b7280;">
                   — Mahesh Nayak<br/>
                   Full-Stack Developer | Next.js • Node.js • MongoDB<br/>
-                  <a href="mailto:maheshnayak9639@gmail.com" style="color:#60a5fa;text-decoration:none;">maheshnayak9639@gmail.com</a>
+                  <a href="mailto:maheshnayak.dev@gmail.com" style="color:#60a5fa;text-decoration:none;">maheshnayak.dev@gmail.com</a>
                 </p>
               </td>
             </tr>
